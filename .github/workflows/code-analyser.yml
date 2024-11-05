@@ -7,6 +7,11 @@ jobs:
       - name: Check out files
         uses: actions/checkout@v4
 
+      - name: Set node version
+        uses: actions/setup-node@v4
+        with:
+          node-version: '23.1.0'
+
       - name: Install Salesforce CLI
         run: npm install -g @salesforce/cli@latest
 
