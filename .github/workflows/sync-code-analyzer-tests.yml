@@ -21,6 +21,7 @@ jobs:
        run: sf code-analyzer rules --config-file .github/workflows/config/code-analyzer-config.yml --rule-selector=all --output-file ca-v5-rules.json
 
 
+
      - uses: actions/upload-artifact@v4
        with:
 
