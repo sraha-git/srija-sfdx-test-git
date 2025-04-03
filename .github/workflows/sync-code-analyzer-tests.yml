@@ -18,7 +18,9 @@ jobs:
 
      - name: Get Code Analyzer V5 rules
 
+
        run: sf code-analyzer rules --config-file .github/workflows/config/code-analyzer-config.yml --rule-selector=all --output-file ca-v5-rules.json
+
 
 
 
