@@ -1,6 +1,5 @@
 public class STest {
 
-
     public STest(){
         
     }
