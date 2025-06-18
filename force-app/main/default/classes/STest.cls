@@ -6,4 +6,5 @@ public class STest {
     public static void testingS(){
         System.debug('test ');
     }
+
 }
