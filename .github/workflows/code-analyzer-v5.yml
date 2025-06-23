@@ -8,7 +8,7 @@ on:
        default: ''     
 jobs:
  salesforce-code-analyzer-workflow:
-  runs-on: ubuntu-latest
+  runs-on: ubuntu-latest-copy
   steps:
     - name: Setup Node
       uses: actions/setup-node@v4
